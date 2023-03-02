@@ -1,0 +1,46 @@
+.registerform{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 769px;
+}
+.reglh{
+    width: 30.4%;
+    display: inline-block;
+}
+.reglh h1{
+    margin-top: 250px;
+    margin-left: 69.25px;
+    font-size: 62px;
+    color: #5861AE;
+}
+.reglh span{
+    margin-left: 72.38px;
+    font-size: 20px;
+    color: #565657;
+    display: block;
+}
+.reglh  p{
+    margin-left: 72.38px;
+    margin-top: 100px;
+    font-size: 16px;
+    color: #565657;
+    margin-bottom: 20px;
+}
+.reglh button{
+    margin-left: 72.38px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: #4552C1;
+    border-color: #4552C1;
+}
+.regline{
+    display: inline-block;
+    margin-top: 300px;
+    width: 0.2%;
+    height: 200px;
+    background-color: #5861AE;
+}
