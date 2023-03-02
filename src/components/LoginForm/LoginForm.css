@@ -1,0 +1,109 @@
+.loginform{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 769px;
+}
+.lh{
+    width: 49.8%;
+    display: inline-block;
+    padding-left: 152px;
+}
+.lh  h1{
+    margin-top: 182px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    color: #5861AE;
+}
+.lh #p1{
+    color: #565657;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+.lh #p2{
+    color: #565657;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.lh button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: #4552C1;
+    border-color: #4552C1;
+}
+.line{
+    display: inline-block;
+    margin-top: 300px;
+    width: 0.4%;
+    height: 200px;
+    background-color: #5861AE;
+}
+.rh{
+    width: 49.8%;
+    display: inline-block;
+    padding-left: 152px;
+    background: #B9C0FD1A;
+}
+
+.rh div label {
+    margin:20px 0;
+    position:relative;
+    display:inline-block;
+  }
+    
+.rh  div span {
+    padding:10px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity:0.5;
+  }
+  
+.rh div input {
+    padding:10px;
+    background:inherit;
+    border: none;
+    border-bottom: 2px solid #5861AE;
+    width: 500px;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  
+.rh div input:focus + span, input:not(:placeholder-shown) + span {
+    opacity:1;
+    transform: scale(0.75) translateY(-100%) translateX(-30px);
+    color: #5861AE;
+    font-size: 16px;
+  }
+  .rh p{
+    margin-top: 182px;
+    font-size: 32px;
+    color: #4552C1;
+    margin-bottom: 30px;
+  }
+  .rh #fg{
+    color: #4552C1;
+    font-size: 16px;
+    margin-left: 386px;
+    display: block;
+    margin-bottom: 68.5px;
+  }
+  .rh button{
+    background-color: #4552C1;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    margin-left: 200px;
+  }
+  #padlock{
+    margin-left: 490px;
+  }

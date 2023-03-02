@@ -1,0 +1,67 @@
+.info-container {
+  height: 197px;
+  background-image: url("../../Images/Footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.about{
+  margin-left: 137px;
+  margin-top: 37px;
+  height: max-content;
+  width: max-content;
+}
+.about #p1info{
+  color: #182838;
+  font-size: 18px;
+  font-weight: bold;
+}
+.about #p2info{
+  color: #3D3D43;
+  font-size: 15px;
+}
+.submenu1{
+  width: max-content;
+  height: max-content;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.submenu2{
+  width: max-content;
+  height: max-content;
+  margin-left:100px;
+  margin-top: 40px;
+}
+.submenu3{
+  width: max-content;
+  height: max-content;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.submenu4{
+  width: max-content;
+  height: max-content;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.submenu1 p, .submenu2 p, .submenu3 p, .submenu4 p{
+  color: #182838;
+}
+.icons{
+  width: max-content;
+  height: max-content;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.icons p{
+  font-weight: bold;
+  color: #182838;
+  font-size: 18px;
+}
+.icons img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
