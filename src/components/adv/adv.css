@@ -1,0 +1,18 @@
+.refer {
+    border-top: 2px solid #5861AE;
+    background-color: #F8F9FF;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: #5861AE;
+}
+
+.refer p {
+    color: grey;
+    background-color: #F8F9FF;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+    font-style: italic;
+
+}
