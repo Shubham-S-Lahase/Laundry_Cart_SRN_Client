@@ -1,0 +1,47 @@
+
+#create-order-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 7%;
+    align-items: center;
+
+}
+#create-order-top>div{
+    padding: 0px 30px;
+}
+#create-order-top>div>input{
+  margin-left: 10px;
+  height: 20px;
+  text-align: center;
+  border:none;
+  
+}
+#createorder-titlehead>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type:none;
+    background-color: #2F2F2F;
+    color:white;
+    height:40px;
+    align-items: center;
+    padding: 0px 100px;
+    margin: 0px;
+}
+#createorder-titlehead{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 92%;
+}
+#proceed-container>button{
+    border:1px solid #5861AE;
+    float: right;
+    margin:10px 30px;
+    padding:5px 20px;
+    border-radius: 5px;
+}

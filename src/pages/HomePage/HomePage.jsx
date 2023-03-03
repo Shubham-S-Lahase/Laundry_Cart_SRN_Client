@@ -3,6 +3,7 @@ import "./HomePage.css";
 import SideBarComponent from "../../components/sideBar/sidebar";
 import NavnUser from "../../components/Navbar/NavnUser";
 import FooterComponent from "../../components/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -17,7 +18,7 @@ const HomePage = () => {
         <div class="nfooter">
             <FooterComponent/>
         </div>
-        <div class="outlet"></div>
+        <div class="outlet"><Outlet/></div>
       </div>
     </>
   );
