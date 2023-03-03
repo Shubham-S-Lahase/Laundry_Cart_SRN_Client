@@ -44,3 +44,105 @@
     height: 200px;
     background-color: #5861AE;
 }
+.regrh{
+    width: 69.4%;
+    background: #F8F9FF;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.regrh div label {
+    margin:20px 0;
+    position:relative;
+    display:inline-block;
+  }
+
+.regrh  div span {
+    padding:10px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity:0.5;
+  }
+  
+.regrh div input {
+    padding:10px;
+    background:inherit;
+    border: none;
+    border-bottom: 2px solid #5861AE;
+    width: 450px;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  
+.regrh div input:focus + span, input:not(:placeholder-shown) + span {
+    opacity:1;
+    transform: scale(0.75) translateY(-100%) translateX(-30px);
+    color: #5861AE;
+    font-size: 16px;
+  }
+
+  .regrh div{
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  .regrh #field4 select,.regrh #field5 select{
+    width: 450px;
+    border: none;
+    border-bottom: none;
+    font-size: 17px;
+    height: 30px;
+    background-color: inherit;
+    border-bottom: 2px solid #5861AE;
+  }
+  .regrh p{
+    font-size: 32px;
+    margin-top: 45px;
+    color: #5861AE;
+  }
+  #field9{
+    display: block;
+  }
+  #tc{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #tc h5{
+    display: inline;
+    font-size: 14px;
+    color: #5861AE;
+  }
+  #tc input{
+    margin: 0;
+    width: 50px;
+  }
+.checked{
+    background-color: #4552C1;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 481px;
+}
+.unchecked{
+    background-color: #4552C1;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    cursor: not-allowed;
+    margin-left: 481px;
+}
+  
