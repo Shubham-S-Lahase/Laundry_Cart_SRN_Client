@@ -1,0 +1,46 @@
+.navnusercont {
+  margin: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 48px #0000000f;
+  opacity: 1;
+}
+.navnusercont span{
+    margin-top: 29.5px;
+    color: #5861AE;
+    font-size: 20px;
+}
+.navuser{
+    margin-left: 67%;
+    margin-right: 20px;
+}
+.navnusercont li {
+text-align: center;
+list-style: none;
+display: inline-block;
+margin-inline: 20px;
+color: #565657;
+font-size: 14px;
+height: inherit;
+}
+.user{
+    height: 80px;
+    width: 213px;
+    background-color: #5861AE;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.user img{
+    width: 40px;
+    margin-left: 20px;
+}
+.user img:hover{
+    cursor: pointer;
+}
+

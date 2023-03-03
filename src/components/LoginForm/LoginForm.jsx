@@ -33,7 +33,7 @@ function emailValidation(event){
           <div id="l1">
             <label>
               <input placeholder=" " type="text" required onChange={emailValidation} />
-              <span>E-mail</span>
+              <span>E-mail/Mobile</span>
               <span style={{marginTop:"30px", marginLeft:"180px", color:"red", fontWeight:"bold", visibility:emailError}}>Please Enter a valid Email or Mobile Number</span>
             </label>
           </div>

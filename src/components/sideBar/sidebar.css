@@ -1,0 +1,15 @@
+.sidebar{
+    width: 57px;
+    height:100vh;
+    text-align: center;
+    background-color: #5861AE;
+    border: 1px solid #5861AE;
+}
+.sidebar div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 47px;
+}
+.sidebar div img{
+    margin-top: 12px;
+}
