@@ -11,7 +11,8 @@ const NavnUser = () => {
       credentials: "include",
     }).then((response) => {
       response.json().then((userInfo) => {
-       setUserInfo(userInfo);
+        setUserInfo(userInfo);
+        console.log(userInfo)
       });
     });
   }, [])
