@@ -1,9 +1,12 @@
 import React from "react";
 import MyRouter from "./router/MyRouter";
+import UserContextProvider from "./components/UserContext";
 function App() {
   return (
     <div className="App">
-      <MyRouter />
+      <UserContextProvider>
+        <MyRouter />
+      </UserContextProvider>
     </div>
   );
 }
